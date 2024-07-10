@@ -1,0 +1,43 @@
+.label {
+    font-size: .7em;
+    opacity: .85;
+    display: block;
+    padding-top: 1em;
+    margin: 0px;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+}
+
+.text {
+    font-size: .9em;
+    opacity: .85;
+    display: block;
+    margin: 0px;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+}
+
+.label {
+    color: #f5f5f5 !important;
+  }
+
+.text {
+    color: #fff !important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px){
+    .label {
+        font-size: .3em;
+        font-weight: 500;
+    }
+
+    .text {
+        font-size: .4em;
+        font-weight: 700;
+    }
+}
+

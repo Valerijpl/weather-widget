@@ -1,0 +1,82 @@
+.label {
+    font-size: .9em;
+    opacity: .85;
+    display: block;
+    padding-top: 1em;
+    margin: 0px;
+    color: #555;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  }
+
+  .title {
+    font-size: 1.4em;
+    opacity: .85;
+    display: block;
+    margin: 20px 0px 40px 0px;
+    color: #333;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  }
+
+  .text {
+    font-size: 1em;
+    opacity: .85;
+    display: block;
+    margin: 0px 0px 20px 0px;
+    color: #333;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    text-align: center;
+  }
+
+  .additional {
+    font-weight: 300;
+    color: #555;
+}
+
+.temperature {
+    font-size: .9em;
+    opacity: .85;
+    display: block;
+    padding-top: 1em;
+    margin: 0px;
+    padding: 0px;
+    color: #555;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.text, .title {
+    color: #fff;
+    font-weight: 600;
+}
+
+.label , .temperature, .additional {
+    color: #f3f3f3;
+}
+
+@media only screen and (max-width: 768px){
+    .label {
+        font-size: .3em;
+        font-weight: 500;
+    }
+
+    .title {
+        font-size: .7em;
+        font-weight: 700;
+    }
+
+    .text {
+        font-size: .4em;
+        font-weight: 700;
+    }
+
+    .temperature {
+        font-weight: 500;
+        font-size: .4em;
+    }
+}

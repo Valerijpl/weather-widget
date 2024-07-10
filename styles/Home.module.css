@@ -1,0 +1,31 @@
+.main {
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.notification {
+    width: 100%;
+    background: linear-gradient(45deg, #007bb2, #33bfff);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    color: #fff;
+    line-height: 30px;
+}
+
+@media (prefers-color-scheme: light) {
+    .notification {
+        background: linear-gradient(45deg, #007bb2, #33bfff);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .notification {
+        background : #333;
+        box-shadow: none;
+    }
+}
